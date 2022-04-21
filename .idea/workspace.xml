@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Add Interface: Converter" />
+    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Add Class: ConvertFromSekToUsd.java">
+      <change afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/ConvertFromSekToJpy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" afterDir="false" />
+    </list>
+    <list id="14ad0527-5103-40ce-a19d-89f14a80f8c0" name="Changes by christianlofqvist" comment="">
+      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +28,19 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="b6a76eafb0ca812d66a16d19d14a6003399e40ff" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java">
+      <ranges>
+        <range start1="25" end1="25" start2="25" end2="26" changelist="14ad0527-5103-40ce-a19d-89f14a80f8c0" />
+        <range start1="33" end1="33" start2="34" end2="35" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
+        <range start1="100" end1="100" start2="102" end2="123" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,6 +75,9 @@
       <list>
         <item itemvalue="Application.org.example.consumer.Main" />
         <item itemvalue="Application.org.example.consumer.Main" />
+        <item itemvalue="Application.org.example.consumer.Main" />
+        <item itemvalue="Application.org.example.consumer.Main" />
+        <item itemvalue="Application.org.example.consumer.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650455839465</updated>
-      <workItem from="1650455840671" duration="9384000" />
+      <workItem from="1650455840671" duration="9731000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit.">
       <created>1650530777562</created>
@@ -91,7 +109,31 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1650531107597</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Add module-info.java to all modules">
+      <created>1650531152106</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1650531152106</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Add Class: ConvertFromSekToEur.java">
+      <created>1650531179427</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1650531179427</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Add Class: ConvertFromSekToGbp.java">
+      <created>1650531188399</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1650531188399</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Add Class: ConvertFromSekToUsd.java">
+      <created>1650531199651</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1650531199651</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +153,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Add Interface: Converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Interface: Converter" />
+    <MESSAGE value="Add module-info.java to all modules" />
+    <MESSAGE value="Add Class: ConvertFromSekToEur.java" />
+    <MESSAGE value="Add Class: ConvertFromSekToGbp.java" />
+    <MESSAGE value="Add Class: ConvertFromSekToUsd.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Class: ConvertFromSekToUsd.java" />
   </component>
 </project>

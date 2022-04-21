@@ -31,6 +31,7 @@ public class Main {
                 case "1" -> ConvertToEuro(serviceLoader);
                 case "2" -> ConvertToDollar(serviceLoader);
                 case "3" -> ConvertToPound(serviceLoader);
+                case "4" -> ConvertToYen(serviceLoader);
                 case "e" -> System.exit(0);
             }
         }
@@ -95,6 +96,27 @@ public class Main {
                 .filter(convertProvider -> convertProvider.getClass()
                         .getSimpleName()
                         .startsWith("ConvertFromSekToGbp"))
+                .forEach(convertProvider -> System.out.println(convertProvider.currency()));
+        System.out.println("--------------------");
+    }
+
+    private static void ConvertToYen(ServiceLoader<Converter> serviceLoader) {
+
+        System.out.println("Converting 100 SEK to new currency:");
+        System.out.println("--------------------");
+
+        serviceLoader.stream()
+                .map(ServiceLoader.Provider::get)
+                .filter(convertProvider -> convertProvider.getClass()
+                        .getSimpleName()
+                        .startsWith("ConvertFromSekToJpy"))
+                .forEach(convertProvider -> System.out.println(convertProvider.convertMoney()));
+
+        serviceLoader.stream()
+                .map(ServiceLoader.Provider::get)
+                .filter(convertProvider -> convertProvider.getClass()
+                        .getSimpleName()
+                        .startsWith("ConvertFromSekToJpy"))
                 .forEach(convertProvider -> System.out.println(convertProvider.currency()));
         System.out.println("--------------------");
     }
