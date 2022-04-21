@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Initial commit." />
+    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Add Interface: Converter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="b6a76eafb0ca812d66a16d19d14a6003399e40ff" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -66,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650455839465</updated>
-      <workItem from="1650455840671" duration="9079000" />
+      <workItem from="1650455840671" duration="9384000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit.">
       <created>1650530777562</created>
@@ -74,7 +79,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1650530777562</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Initial commit.">
+      <created>1650530940248</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1650530940248</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Add Interface: Converter">
+      <created>1650531107597</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1650531107597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Add Interface: Converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Interface: Converter" />
   </component>
 </project>
