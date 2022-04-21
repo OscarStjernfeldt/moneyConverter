@@ -11,6 +11,6 @@ public class ConvertFromSekToEur implements Converter {
 
     @Override
     public String currency() {
-        return "EURO";
+        return "EUR";
     }
 }
