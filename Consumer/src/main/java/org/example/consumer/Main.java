@@ -23,6 +23,8 @@ public class Main {
             System.out.println("1: Convert from SEK to EUR");
             System.out.println("2: Convert from SEK to USD");
             System.out.println("3: Convert from SEK to GBP");
+            System.out.println("4: Convert from SEK to JPY");
+            System.out.println("5: Convert from SEK to CNY");
             System.out.println("e: To close system, press e");
             String menuOption = sc.nextLine()
                     .toLowerCase();
@@ -32,6 +34,7 @@ public class Main {
                 case "2" -> ConvertToDollar(serviceLoader);
                 case "3" -> ConvertToPound(serviceLoader);
                 case "4" -> ConvertToYen(serviceLoader);
+                case "5" -> ConvertToYuan(serviceLoader);
                 case "e" -> System.exit(0);
             }
         }
@@ -117,6 +120,26 @@ public class Main {
                 .filter(convertProvider -> convertProvider.getClass()
                         .getSimpleName()
                         .startsWith("ConvertFromSekToJpy"))
+                .forEach(convertProvider -> System.out.println(convertProvider.currency()));
+        System.out.println("--------------------");
+    }
+    private static void ConvertToYuan(ServiceLoader<Converter> serviceLoader) {
+
+        System.out.println("Converting 100 SEK to new currency:");
+        System.out.println("--------------------");
+
+        serviceLoader.stream()
+                .map(ServiceLoader.Provider::get)
+                .filter(convertProvider -> convertProvider.getClass()
+                        .getSimpleName()
+                        .startsWith("ConvertFromSekToCny"))
+                .forEach(convertProvider -> System.out.println(convertProvider.convertMoney()));
+
+        serviceLoader.stream()
+                .map(ServiceLoader.Provider::get)
+                .filter(convertProvider -> convertProvider.getClass()
+                        .getSimpleName()
+                        .startsWith("ConvertFromSekToCny"))
                 .forEach(convertProvider -> System.out.println(convertProvider.currency()));
         System.out.println("--------------------");
     }

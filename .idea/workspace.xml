@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Add Class: ConvertFromSekToUsd.java">
-      <change afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/ConvertFromSekToJpy.java" afterDir="false" />
+    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Add Class: ConvertFromSekToJpy.java">
+      <change afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/ConvertFromSekToCny.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/module-info.java" afterDir="false" />
     </list>
     <list id="14ad0527-5103-40ce-a19d-89f14a80f8c0" name="Changes by christianlofqvist" comment="">
       <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" afterDir="false" />
@@ -36,9 +37,9 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java">
       <ranges>
-        <range start1="25" end1="25" start2="25" end2="26" changelist="14ad0527-5103-40ce-a19d-89f14a80f8c0" />
-        <range start1="33" end1="33" start2="34" end2="35" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
-        <range start1="100" end1="100" start2="102" end2="123" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
+        <range start1="25" end1="25" start2="25" end2="27" changelist="14ad0527-5103-40ce-a19d-89f14a80f8c0" />
+        <range start1="34" end1="34" start2="36" end2="37" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
+        <range start1="122" end1="122" start2="125" end2="145" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
       </ranges>
     </file>
   </component>
@@ -89,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650455839465</updated>
-      <workItem from="1650455840671" duration="9731000" />
+      <workItem from="1650455840671" duration="10051000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit.">
       <created>1650530777562</created>
@@ -133,7 +134,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1650531199651</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Add Class: ConvertFromSekToJpy.java">
+      <created>1650531602484</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1650531602484</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +164,7 @@
     <MESSAGE value="Add Class: ConvertFromSekToEur.java" />
     <MESSAGE value="Add Class: ConvertFromSekToGbp.java" />
     <MESSAGE value="Add Class: ConvertFromSekToUsd.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Class: ConvertFromSekToUsd.java" />
+    <MESSAGE value="Add Class: ConvertFromSekToJpy.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Class: ConvertFromSekToJpy.java" />
   </component>
 </project>
