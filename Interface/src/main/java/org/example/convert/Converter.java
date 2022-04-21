@@ -2,7 +2,7 @@ package org.example.convert;
 
 public interface Converter {
 
-    double convertMoney();
+    double convertMoney(int givenAmount);
 
     String currency();
 }

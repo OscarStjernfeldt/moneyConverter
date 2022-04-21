@@ -3,9 +3,10 @@ package org.example.provide;
 import org.example.convert.Converter;
 
 public class ConvertFromSekToJpy implements Converter {
+
     @Override
-    public double convertMoney() {
-        return 100 * 13.55;
+    public double convertMoney(int givenAmount) {
+        return givenAmount * 13.55;
     }
 
     @Override
