@@ -2,7 +2,7 @@ package org.example.provide;
 
 import org.example.convert.Converter;
 
-public class ConvertFromSekToEur implements Converter {
+public class Eur implements Converter {
 
     @Override
     public double convertMoney(int givenAmount) {

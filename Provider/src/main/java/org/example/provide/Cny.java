@@ -2,15 +2,15 @@ package org.example.provide;
 
 import org.example.convert.Converter;
 
-public class ConvertFromSekToGbp implements Converter {
+public class Cny implements Converter {
 
     @Override
     public double convertMoney(int givenAmount) {
-        return givenAmount / 8.12;
+        return givenAmount * 0.68;
     }
 
     @Override
     public String currency() {
-        return "GBP";
+        return "CNY";
     }
 }
