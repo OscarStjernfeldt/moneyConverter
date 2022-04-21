@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Add parameter givenAmount to Converter.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/ConvertFromSekToCny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Cny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/ConvertFromSekToEur.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Eur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/ConvertFromSekToGbp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Gbp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/ConvertFromSekToJpy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Jpy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/ConvertFromSekToUsd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Usd.java" afterDir="false" />
-    </list>
+    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Add parameter givenAmount to Converter.java" />
     <list id="14ad0527-5103-40ce-a19d-89f14a80f8c0" name="Changes by christianlofqvist" comment="">
       <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" afterDir="false" />
     </list>
@@ -34,24 +25,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java">
-      <ranges>
-        <range start1="29" end1="34" start2="29" end2="34" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
-        <range start1="36" end1="37" start2="36" end2="40" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
-        <range start1="39" end1="52" start2="42" end2="42" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
-        <range start1="53" end1="54" start2="43" end2="44" changelist="14ad0527-5103-40ce-a19d-89f14a80f8c0" />
-        <range start1="55" end1="56" start2="45" end2="46" changelist="14ad0527-5103-40ce-a19d-89f14a80f8c0" />
-        <range start1="62" end1="63" start2="52" end2="53" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
-        <range start1="69" end1="70" start2="59" end2="60" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
-        <range start1="73" end1="157" start2="63" end2="63" changelist="aa4b1245-8517-409e-b606-7c7e4ba8b31c" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -156,7 +133,19 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1650541169811</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Refactor code">
+      <created>1650545046311</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1650545046311</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Refactor code">
+      <created>1650545070613</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1650545070613</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +171,7 @@
     <MESSAGE value="Add Class: ConvertFromSekToUsd.java" />
     <MESSAGE value="Add Class: ConvertFromSekToJpy.java" />
     <MESSAGE value="Add parameter givenAmount to Converter.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add parameter givenAmount to Converter.java" />
+    <MESSAGE value="Refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor code" />
   </component>
 </project>

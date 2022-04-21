@@ -57,7 +57,7 @@ public class Main {
                 .map(ServiceLoader.Provider::get)
                 .filter(convertProvider -> convertProvider.getClass()
                         .getSimpleName()
-                        .startsWith(endsWith))
+                        .endsWith(endsWith))
                 .forEach(convertProvider -> System.out.println(convertProvider.currency()));
         System.out.println("--------------------");
     }
