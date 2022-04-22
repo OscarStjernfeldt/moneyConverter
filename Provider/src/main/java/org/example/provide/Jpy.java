@@ -1,7 +1,9 @@
 package org.example.provide;
 
 import org.example.convert.Converter;
+import org.example.convert.CurrencyFullName;
 
+@CurrencyFullName(currency = "Japanese Yen")
 public class Jpy implements Converter {
 
     @Override

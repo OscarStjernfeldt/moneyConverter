@@ -1,7 +1,9 @@
 package org.example.provide;
 
 import org.example.convert.Converter;
+import org.example.convert.CurrencyFullName;
 
+@CurrencyFullName(currency = "British Pounds")
 public class Gbp implements Converter {
 
     @Override
