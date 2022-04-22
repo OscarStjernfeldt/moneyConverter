@@ -2,7 +2,7 @@ package org.example.consumer;
 
 import org.example.convert.Converter;
 
-import java.util.List;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.ServiceLoader;
 
@@ -18,56 +18,27 @@ public class Main {
         System.out.println("WELCOME TO OUR CURRENCY CONVERTER");
         System.out.println();
         System.out.println("Please enter the amount of SEK that you'd like to convert: ");
-        givenAmount = sc.nextInt();
-        menu();
-    }
+        try {
+            givenAmount = sc.nextInt();
 
-    public static void menu() {
-        List<String> listOfCurrencies = serviceLoader.stream()
-                .map(ServiceLoader.Provider::type)
-                .map(Class::getSimpleName)
-                .toList();
-        while (true) {
-            String menuOption = sc.nextLine()
-                    .toLowerCase();
-
-
-            switch (menuOption) {
-                case "eur" -> ConvertToCurrency(serviceLoader, "Eur", "Euro");
-                case "usd" -> ConvertToCurrency(serviceLoader, "Usd", "US Dollar");
-                case "gbp" -> ConvertToCurrency(serviceLoader, "Gbp", "British Pound");
-                case "jpy" -> ConvertToCurrency(serviceLoader, "Jpy", "Japanese Yen");
-                case "cny" -> ConvertToCurrency(serviceLoader, "Cny", "Chinese Yuan");
-                case "e" -> System.exit(0);
-            }
-
-            System.out.println("Please enter the name of the currency:");
-            System.out.println("--------------------");
-            System.out.println(listOfCurrencies);
-
-            //serviceLoader.stream().map(ServiceLoader.Provider::type).forEach(p -> System.out.println(p.getSimpleName()));
-            System.out.println("[Enter E for Exit]");
+            if (givenAmount > 0)
+                convertToCurrency(serviceLoader);
+            else
+                throw new IllegalArgumentException();
+        } catch (InputMismatchException | IllegalArgumentException e) {
+            System.out.println("Invalid input, only numbers above 0");
         }
+
     }
 
-    private static void ConvertToCurrency(ServiceLoader<Converter> serviceLoader, String endsWith, String currency) {
+    private static void convertToCurrency(ServiceLoader<Converter> serviceLoader) {
         System.out.println();
-        System.out.println("Converting " + givenAmount + " SEK to: " + currency);
+        System.out.println("Converting " + givenAmount + " SEK to:");
         System.out.println("--------------------");
 
         serviceLoader.stream()
                 .map(ServiceLoader.Provider::get)
-                .filter(convertProvider -> convertProvider.getClass()
-                        .getSimpleName()
-                        .endsWith(endsWith))
-                .forEach(convertProvider -> System.out.println(convertProvider.convertMoney(givenAmount)));
-
-        serviceLoader.stream()
-                .map(ServiceLoader.Provider::get)
-                .filter(convertProvider -> convertProvider.getClass()
-                        .getSimpleName()
-                        .endsWith(endsWith))
-                .forEach(convertProvider -> System.out.println(convertProvider.currency()));
+                .forEach(convertProvider -> System.out.println(convertProvider.convertMoney(givenAmount) + " - " + convertProvider.currency()));
         System.out.println("--------------------");
     }
 }
