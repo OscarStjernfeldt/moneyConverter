@@ -7,7 +7,7 @@ import org.example.convert.CurrencyFullName;
 public class Jpy implements Converter {
 
     @Override
-    public double convertMoney(int givenAmount) {
+    public double convertMoney(float givenAmount) {
         return givenAmount * 13.55;
     }
 

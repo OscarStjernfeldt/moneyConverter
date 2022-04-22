@@ -7,7 +7,7 @@ import org.example.convert.CurrencyFullName;
 public class Gbp implements Converter {
 
     @Override
-    public double convertMoney(int givenAmount) {
+    public double convertMoney(float givenAmount) {
         return givenAmount / 8.12;
     }
 

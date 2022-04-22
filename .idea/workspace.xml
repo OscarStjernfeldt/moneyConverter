@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Change system outcome &amp; remove switch statement">
-      <change afterPath="$PROJECT_DIR$/Interface/src/main/java/org/example/convert/CurrencyFullName.java" afterDir="false" />
+    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Add annotation CurrencyFullName to classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Cny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Cny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Eur.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Eur.java" afterDir="false" />
-    </list>
-    <list id="65de4bd8-b037-4e22-ba66-30c1ea7e4f40" name="Changes by Christian" comment="">
-      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Gbp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Gbp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/src/main/java/org/example/convert/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interface/src/main/java/org/example/convert/Converter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Jpy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Jpy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Usd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Usd.java" afterDir="false" />
+    </list>
+    <list id="65de4bd8-b037-4e22-ba66-30c1ea7e4f40" name="Changes by Christian" comment="">
+      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Cny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Cny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Eur.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Eur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Gbp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Gbp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,19 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1650619175496</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="Add annotation">
+      <created>1650630608597</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1650630608597</updated>
+    </task>
+    <task id="LOCAL−00015" summary="Add annotation CurrencyFullName to classes">
+      <created>1650630652324</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1650630652324</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +206,8 @@
     <MESSAGE value="Add parameter givenAmount to Converter.java" />
     <MESSAGE value="Refactor code" />
     <MESSAGE value="Change system outcome &amp; remove switch statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change system outcome &amp; remove switch statement" />
+    <MESSAGE value="Add annotation" />
+    <MESSAGE value="Add annotation CurrencyFullName to classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add annotation CurrencyFullName to classes" />
   </component>
 </project>
