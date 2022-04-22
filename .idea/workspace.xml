@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Refactor code">
+    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Change system outcome &amp; remove switch statement">
+      <change afterPath="$PROJECT_DIR$/Interface/src/main/java/org/example/convert/CurrencyFullName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Cny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Cny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Eur.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Eur.java" afterDir="false" />
+    </list>
+    <list id="65de4bd8-b037-4e22-ba66-30c1ea7e4f40" name="Changes by Christian" comment="">
+      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Gbp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Gbp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Jpy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Jpy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Usd.java" beforeDir="false" afterPath="$PROJECT_DIR$/Provider/src/main/java/org/example/provide/Usd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +28,14 @@
         <option value="Interface" />
         <option value="module-info" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Test" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,7 +161,13 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1650545272183</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="Change system outcome &amp; remove switch statement">
+      <created>1650619175496</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1650619175496</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +194,7 @@
     <MESSAGE value="Add Class: ConvertFromSekToJpy.java" />
     <MESSAGE value="Add parameter givenAmount to Converter.java" />
     <MESSAGE value="Refactor code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor code" />
+    <MESSAGE value="Change system outcome &amp; remove switch statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change system outcome &amp; remove switch statement" />
   </component>
 </project>

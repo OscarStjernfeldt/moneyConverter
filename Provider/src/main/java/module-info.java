@@ -8,4 +8,5 @@ import org.example.provide.Usd;
 module org.example.convertprovider {
     requires org.example.convert;
     provides Converter with Eur, Usd, Gbp, Jpy, Cny;
+    exports org.example.provide;
 }
