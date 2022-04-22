@@ -2,6 +2,7 @@ package org.example.consumer;
 
 import org.example.convert.Converter;
 
+import java.util.List;
 import java.util.Scanner;
 import java.util.ServiceLoader;
 
@@ -22,9 +23,14 @@ public class Main {
     }
 
     public static void menu() {
+        List<String> listOfCurrencies = serviceLoader.stream()
+                .map(ServiceLoader.Provider::type)
+                .map(Class::getSimpleName)
+                .toList();
         while (true) {
             String menuOption = sc.nextLine()
                     .toLowerCase();
+
 
             switch (menuOption) {
                 case "eur" -> ConvertToCurrency(serviceLoader, "Eur", "Euro");
@@ -34,9 +40,12 @@ public class Main {
                 case "cny" -> ConvertToCurrency(serviceLoader, "Cny", "Chinese Yuan");
                 case "e" -> System.exit(0);
             }
+
             System.out.println("Please enter the name of the currency:");
             System.out.println("--------------------");
-            serviceLoader.stream().map(ServiceLoader.Provider::type).forEach(p -> System.out.println(p.getSimpleName()));
+            System.out.println(listOfCurrencies);
+
+            //serviceLoader.stream().map(ServiceLoader.Provider::type).forEach(p -> System.out.println(p.getSimpleName()));
             System.out.println("[Enter E for Exit]");
         }
     }

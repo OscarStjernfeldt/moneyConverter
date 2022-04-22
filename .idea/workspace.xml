@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Add parameter givenAmount to Converter.java" />
-    <list id="14ad0527-5103-40ce-a19d-89f14a80f8c0" name="Changes by christianlofqvist" comment="">
+    <list default="true" id="aa4b1245-8517-409e-b606-7c7e4ba8b31c" name="Changes" comment="Refactor code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/org/example/consumer/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +145,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1650545070613</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Refactor code">
+      <created>1650545272183</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1650545272183</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
